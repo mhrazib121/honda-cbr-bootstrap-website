@@ -7,3 +7,9 @@
 .bike-grayscale{
     filter: grayscale(100%);
 }
+.fa-star{
+    color: #E77C40;
+}
+.client-name{
+    color: #23A6F0;
+}
