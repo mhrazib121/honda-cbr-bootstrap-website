@@ -17,9 +17,38 @@
 </head>
 
 <body>
-    <header class="bg-honda-primary">
+    <header class=" bg-honda-primary">
         <!-- Navbar Design -->
-
+        <nav class="container navbar navbar-expand-lg navbar-dark bg-primar py-5">
+            <div class="container-fluid ">
+                <a class="navbar-brand honda-common-color fs-2 text" href="#">Honda</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="ms-auto me-5">
+                        <ul class="navbar-nav ms-aut mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- button  -->
+                    <button class="btn btn-outline bg-btn text-white" type="submit">Login</button>
+                </div>
+            </div>
+        </nav>
 
         <!-- Navbar End -->
 
@@ -31,7 +60,7 @@
                 <h1 class="mb-4">Honda CBR 300R</h1>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
                     duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                <button type="button" class="btn bg-btn text-white" data-bs-toggle="modal"
                     data-bs-target="#myModal">Purchase</button>
 
                 <!-- modal open  -->
@@ -67,21 +96,21 @@
         <section class="container my-5">
             <div class="text-center">
                 <h2>Fetured Bikes 2021</h2>
-                <small class="fetured-comment">Best bike collection</small>
+                <small class="honda-common-color">Best bike collection</small>
             </div>
-            <div class="row gx-5 ">
-                <img class="col-lg-4 p-5 bike-grayscale" src="images/feature-bike.jpg" alt="">
-                <img class="col-lg-4 p-5" src="images/feature-bike.jpg" alt="">
-                <img class="col-lg-4 p-5 bike-grayscale" src="images/feature-bike.jpg" alt="">
+            <div class="row mx-4 ">
+                <img class="col-lg-4  py-3 bike-grayscale img-fluid" src="images/feature-bike.jpg" alt="">
+                <img class="col-lg-4  py-3 img-fluid" src="images/feature-bike.jpg" alt="">
+                <img class="col-lg-4  py-3 bike-grayscale img-fluid" src="images/feature-bike.jpg" alt="">
 
             </div>
         </section>
         <!-- Testimonial -->
-        <section class="container">
+        <section class="container ">
             <div class="text-center">
-                <h1>Happy <span> Clients says</span></h1>
+                <h1>Happy <span class="honda-common-color"> Clients says</span></h1>
             </div>
-            <div class="row g-4 my-5">
+            <div class="row g-lg- mx-5 my-5">
                 <div class="col-lg-4 border border-2 rounded-3 row gy-4 ">
                     <div class=" d-flex justify-content-center">
                         <img class="w-50 p-2" src="images/user-1.png" alt="">
@@ -136,7 +165,7 @@
                 </div>
                 <div class="col-lg-4 border border-2 rounded-3 row gy-4 ">
                     <div class=" d-flex justify-content-center">
-                        <img class="w-50 p-2 rounded-circle" src="images/user-3.jpg" alt="">
+                        <img class="w-50 p-2 rounded-circle" src="images/user-3.png" alt="">
                     </div>
                     <div class=" text-center">
                         <p>Slate helps you see how
@@ -162,17 +191,18 @@
                 </div>
             </div>
         </section>
+        <!-- FAQ Section  -->
         <section class="container my-5">
-            <h1 class="text-center my-5"> Frequently Asked Questions </h1>
+            <h1 class="text-center my-5"> Frequently Asked <span class="honda-common-color ">Questions</span> </h1>
             <div class="d-lg-flex  align-items-center">
-                <div class="">
-                    <div class="col-lg-6">
-                        <img class="img-fluid" src="images/faq.png" alt="">
+                <div class="d-lg-flex justify-content-center">
+                    <div class="col-lg-7">
+                        <img class="w-75" src="images/faq.png" alt="">
                     </div>
                 </div>
                 <!-- images -->
                 <!-- Anccordian Start  -->
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
@@ -245,24 +275,21 @@
         </section>
 
         <!-- Honda Galary -->
-        <section>
-            <div class="container d-lg-flex
-            align-items-center jusify-content-between p-5">
+        <section class="container">
+            <div class=" d-lg-flex
+            align-items-center jusify-content-between  p-5">
                 <div class="col-lg-8 ">
 
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active p-5">
-                                <img class="img-fluid" src="images/bike-gallery-1.jpeg"
-                                    class="d-block w-100" alt="...">
+                            <div class="carousel-item active p-4">
+                                <img class="img-fluid" src="images/bike-gallery-1.jpeg" class="d-block w-100" alt="...">
                             </div>
-                            <div class="carousel-item p-5">
-                                <img class="img-fluid" src="images/bike-gallery-2.jpeg"
-                                    class="d-block w-100" alt="...">
+                            <div class="carousel-item p-4">
+                                <img class="img-fluid" src="images/bike-gallery-2.jpeg" class="d-block w-100" alt="...">
                             </div>
-                            <div class="carousel-item p-5">
-                                <img class="img-fluid" src="images/bike-gallery-3.jpeg"
-                                    class="d-block w-100" alt="...">
+                            <div class="carousel-item p-4">
+                                <img class="img-fluid" src="images/bike-gallery-3.jpeg" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -281,17 +308,19 @@
                 </div>
                 <div class="col-lg-4">
 
-                    <h1> Honda CBR 300r Gallery</h1>
+                    <h1> Honda <span class="honda-common-color">CBR 300r</span> Gallery</h1>
                 </div>
             </div>
         </section>
         <!-- Subscribe Section   -->
-        < class="containe d-flex align-items-center justify-content-center py-5 bg-info py-5">
-            <div>
+        <div class=" d-flex align-items-center justify-content-center py-5 bg-honda-primary py-5">
+            <div class="text-white">
                 <h2>LET'S STAY IN TOUCH</h2>
                 <p>Get updates on sales specials and more</p>
-                <input type="email" placeholder="Enter Your Valid Email">
-                <button class="btn btn-info">Submit</button>
+                <input class="p-2" type="email" placeholder="Enter Your Valid Email">
+                <br>
+                <button class="btn bg-btn">Submit</button>
+                <button class="btn bg-btn my-1">Reset</button>
             </div>
     </main>
     <!-- Bootstrap JS Script  -->

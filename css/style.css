@@ -1,9 +1,13 @@
+.honda-common-color{
+    color: #E76F51;
+}
+.bg-btn{
+background-color: #E76F51;
+}
 .bg-honda-primary{
     background-color: #264653;
 }
-.fetured-comment{
-    color: #E76F51;
-}
+
 .bike-grayscale{
     filter: grayscale(100%);
 }
