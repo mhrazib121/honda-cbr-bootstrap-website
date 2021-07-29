@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .honda-common-color{
     color: #E76F51;
 }
@@ -16,4 +19,7 @@ background-color: #E76F51;
 }
 .client-name{
     color: #23A6F0;
+}
+.footer-bg {
+    background-color: #0B0D17;
 }
